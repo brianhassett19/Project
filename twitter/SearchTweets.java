@@ -35,10 +35,10 @@ public class SearchTweets
     	/* Configure using OAuth details and create instance of Twitter class:				*/
     	ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("yag4dXJFVN0Ilv2McQMurFmoA");
-        cb.setOAuthConsumerSecret("iUKg4Gax4PGvAIE2Q9HBvC5oWteCC8P1fc5WVixfUF83F2XdHy");
-        cb.setOAuthAccessToken("1405305037-FqUVszj3G1VR1rFb3AvQM6vwEddjsKUdMhczZ2j");
-        cb.setOAuthAccessTokenSecret("FQaeecWYnSGAaVuls66x2pfKtFebGAGPqIYJR0wVtinGM");        
+        cb.setOAuthConsumerKey("");
+        cb.setOAuthConsumerSecret("");
+        cb.setOAuthAccessToken("");
+        cb.setOAuthAccessTokenSecret("");        
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
 
